@@ -1,8 +1,8 @@
 <?php
 /**
- * @version		$Id: mod_edgeanimate.php 20196 2013-04-02 
+ * @version $Id: mod_edgeanimate.php 20196 2013-08-05 
  * @subpackage	mod_edgeanimate
- * @copyright	Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @copyright	Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
 
