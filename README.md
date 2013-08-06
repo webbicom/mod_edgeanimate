@@ -4,7 +4,8 @@ mod_edgeanimate
 joomla module designed  to include animations produced with Edge Animate.
 
 #  télécharger les fichiers dans dossier js du module
-NB :de nouveaux fichiers JS (nommés différemment) peuvent coexister avec plusieurs projets Edge Animate
+
+NB : de nouveaux fichiers JS (nommés différemment) peuvent coexister avec plusieurs projets Edge Animate
 
 # créer un module edgeanimate
 NB : en fonction de ce que je précise plus haut, on peut implémenter plusieurs projets Edge Animate
@@ -13,8 +14,10 @@ en créant/ou en clonant plusieurs modules edgeanimate
 # Rappel des modifs à faire dans les fichiers JS 
 dans
 modules/mod_edgeanimate/js/projet-volume_edge.js
+
 Modifier :
-``` js  var im= 'chemin absolu vers le dossier images';
+``` js  
+var im= 'chemin absolu vers le dossier images';
 ``` 
 soit:
 ``` js  
@@ -23,6 +26,7 @@ var im= 'http://www/nomdusite/modules/mod_edgeanimate/images';
 
 dans 
 modules/mod_edgeanimate/js/projet-volume_edgePreload.js
+
 Modifier à la fin :
 ``` js  
 aLoader=[{load:"http://code.jquery.com/jquery-latest.js"},
