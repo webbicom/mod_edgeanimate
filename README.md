@@ -29,10 +29,12 @@ modules/mod_edgeanimate/js/projet-volume_edgePreload.js
 
 Modifier à la fin :
 ``` js  
-aLoader=[{load:"http://code.jquery.com/jquery-latest.js"},
+htFallbacks={"http://code.jquery.com/jquery-latest.js":"http://code.jquery.com/jquery-latest.js"}; 
+aLoader=[{load:"http://code.jquery.com/jquery-latest.js",callback:function(result,key){if(!window.jQuery){yepnope({load:"http://code.jquery.com/jquery-latest.js",callback:edgeCallback});
+return false;}return true;}},
 {load:"http://download.adobe.com/pub/adobe/edge/animate/2.0.0/edge.2.0.0.min.js"},
-{load:"http://www/nomdusite/modules/mod_edgeanimate/js/projet-volume_edge.js"},
-{load:"http://www/nomdusite/modules/mod_edgeanimate/js/projet-volume_edgeActions.js"}];
+{load:"http://www.nameofsite/modules/mod_edgeanimate/js/skyscraper_edge.js"},
+{load:"http://www.nameofsite/modules/mod_edgeanimate/js/skyscraper_edgeActions.js"}];
 ``` 
 
 # Dans les réglages du module 
