@@ -40,7 +40,7 @@ CSS
 j'ai conservé edge.css, donc à sélectionner
 
 # JS
-![image(https://dl.dropboxusercontent.com/u/32803028/labo/edge_animate_module_settings.jpg "Edge animate module settings")  
+![Edge animate module settings](https://dl.dropboxusercontent.com/u/32803028/labo/edge_animate_module_settings.jpg)
 
 Sélectionner 
 projet-volume_edgePreload.js
