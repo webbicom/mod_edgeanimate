@@ -1,5 +1,4 @@
 
-
 Le module edgeanimate
 ===============
 
@@ -120,7 +119,7 @@ PS : ceci à revoir
 ### Possibilité d'inclusion dans un article via loadposition
 Créer une position edgeanimate dans le module.
 
-Inclure dans un article
+Inclure dans un article :
 ``` js 
 {loadposition edgeanimate}
 ``` 
